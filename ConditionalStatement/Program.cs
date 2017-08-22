@@ -11,6 +11,7 @@ namespace ConditionalStatement
         static void Main(string[] args)
         {
             //int age = 21;
+            //relational operator
             //if (age >= 17)
             //{
             //    Console.WriteLine("You can see this movie");
@@ -21,12 +22,10 @@ namespace ConditionalStatement
             //    Console.WriteLine("Sorry you are too young.  You need a parent present.");
 
 
-            //int diners = 4;
-            //int eachPay = 13;
-            //Console.WriteLine("How much is each person paying?");
-            //int eachPay = int.Parse(Console.ReadLine());
-            //Console.WriteLine(eachPay * 4);
-            //if (eachPay * 4 >= 50)
+
+            //Console.WriteLine("How much is your total bill?");
+            //double totalBill = double.Parse(Console.ReadLine());
+            //if (totalBill >= 50.0)
             //{
             //    Console.WriteLine("You earned 10% off your bill today!");
             //}
@@ -34,6 +33,52 @@ namespace ConditionalStatement
             //{
             //    Console.WriteLine("You earned 5% off your bill today!");
             //}
+            //Console.WriteLine("Your new total is...");
+            //if (totalBill >= 50)
+            //{
+            //    Console.WriteLine(totalBill * .90);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(totalBill * .95);
+            //}
+            //Console.WriteLine("How many people are in your party?");
+            //int peopleParty = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Each person owes the following amount");
+            //if (totalBill >= 50)
+            //{
+            //    Console.WriteLine((totalBill * .90) / peopleParty);
+            //}
+            //else
+            //{
+            //    Console.WriteLine((totalBill * .95) / peopleParty);
+            //}
+
+
+            //Console.WriteLine("Enter your percentage");
+            //int grade = int.Parse(Console.ReadLine());
+            //if (grade <= 59)
+            //{
+            //    Console.WriteLine("You have failed this project.");
+            //}
+            //if (grade >= 90 && grade <= 100)
+            //{
+            //    Console.WriteLine("You earned an A.");
+            //}
+            //else if (grade >= 80 && grade <= 89)
+            //{
+            //    Console.WriteLine("You earned a B.");
+            //}
+            //else if (grade >= 70 && grade <= 79)
+            //{
+            //    Console.WriteLine("You earned a C.");
+            //}
+            //else if (grade >= 60 && grade <= 69)
+            //{
+            //    Console.WriteLine("You have earned a D.");
+            //}
+            
+
 
             Console.WriteLine("Please tell me your age");
             int studentAge = int.Parse(Console.ReadLine());
@@ -77,6 +122,7 @@ namespace ConditionalStatement
             {
                 Console.WriteLine("Golden Years.");
             }
-            }
+
         }
     }
+}
